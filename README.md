@@ -67,11 +67,13 @@ testing the model ==> 99% accuracy
 ```
 pred <- predict(modelfit,testing)
 
-confusionMatrix(pred,testing$classe)`
+confusionMatrix(pred,testing$classe)
+
+```
 
 ## Confusion Matrix and Statistics
 
-Reference
+```Reference
 Prediction    A    B    C    D    E
 A 2789   15    0    0    0
 B    1 1880   27    0    0
@@ -99,6 +101,8 @@ Prevalence             0.2844   0.1935   0.1744   0.1639
 Detection Rate         0.2843   0.1916   0.1714   0.1603
 Detection Prevalence   0.2858   0.1945   0.1753   0.1618
 Balanced Accuracy      0.9988   0.9935   0.9888   0.9883
+
+
 Class: E
 Sensitivity            0.9933
 Specificity            1.0000
