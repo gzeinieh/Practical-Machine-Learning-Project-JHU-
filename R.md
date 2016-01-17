@@ -1,3 +1,4 @@
+```R
 DataT<- read.csv(url("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"),na.strings=c("","NA"))
 
 DataT1 <- DataT[ , colSums(is.na(DataT)) == 0]; DataTfinal <- DataT1[,-c(1:8)];
@@ -23,3 +24,5 @@ DataV1 <- DataV[ , colSums(is.na(DataV)) == 0]
 DataVfinal <- DataV1[,-c(1:8)]
 
 predfinal <- predict(modelfit,DataVfinal) 
+
+```
