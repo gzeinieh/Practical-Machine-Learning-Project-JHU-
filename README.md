@@ -115,7 +115,7 @@ Balanced Accuracy      0.9967
 
 ```
 
-## prediction 
+## Prediction 
 
  
 
@@ -131,7 +131,7 @@ predfinal <- predict(modelfit,DataVfinal)
 
 ```
 
-## final results 
+## Final Results 
 100% accuracy 
 
 ```
